@@ -21,7 +21,7 @@ let text= document.getElementById('con')
 // }
 
 let=position=0;
-moves.addEventListener('mouseover',()=>{
+moves.addEventListener('click',()=>{
     if(position===0){
         position+=70;
         document.getElementsByClassName('no')[0].style.left= position+'px';
@@ -73,3 +73,4 @@ moves.addEventListener('mouseover',()=>{
   
 
 })
+
