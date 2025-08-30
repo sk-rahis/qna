@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .big2{
+        font-size: 2rem;
+        /* animation: bounce 0.6s linear infinite; */
+        background: linear-gradient(to right,rgb(218, 27, 59),rgb(221, 16, 170));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+        margin-top: 200px;
+
+    }
+    .mid{
+        animation: trn 2s forwards ;
+        font-weight: bolder;
+    }
+    @keyframes trn{
+        from{
+            transform: translateY(-10px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .box{
+        /* margin-top: 50px; */
+        /* padding: 20px 0px; */
+        width: 100%;
+        /* height: 1000px; */
+    }
+
+    .boxes{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes bon{
+        from{
+            transform: translateY(-10px);
+        }
+        to{
+            transform: translateY(10px);
+        }
+    }
+
+    .box1{
+        animation: bon 1.2s alternate-reverse infinite;
+
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right,rgb(223, 144, 158),rgb(223, 165, 175));
+    }
+    .box2{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        animation: bon 1.2s alternate-reverse infinite;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right,rgb(223, 144, 223),rgb(202, 131, 143));
+    }  .box3{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        animation: bon 1.2s alternate-reverse infinite;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right,rgb(89, 164, 167),rgb(112, 126, 153));
+    }  .box4{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        animation: bon 1.2s alternate-reverse infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right,rgb(192, 150, 158),rgb(190, 23, 51));
+    }
+    .box5,.box6{
+       background: rgba(229, 160, 203, 0.5);
+       background-blend-mode: darken;
+       margin: 10px;
+       padding: 20px 10px;
+
+
+    }
+    .boxes2{
+        display: flex;
+    }
+
+
+
+
+    
+
+</style>
+
+<body>
+
+    <section class="container">
+        <div class="box">
+            <p class="big2">YAYYY I KNEW YOU LOVED ME TOO<span class="emoji"></span></p>
+            <p class="small">❤💛💗</p>
+            <p class="mid">😭💖You just made me the happiest human alive💕, i've never seen a girl as beautiful as you💞, you are the most special person in my  life😘
+
+                <p class="big" style="font-size: 1rem;">I can't wait to annoy you forever</p> 
+
+              <div class="boxes">
+                <div class="box1">💝</div>
+                <div class="box2">😍</div>
+                <div class="box3">💍</div>
+                <div class="box4">💋</div>
+
+              </div>
+
+               <div class="boxes2">
+                <div class="box5">
+                    <p class="big">our jaurney starts</p>
+                    <p class="mid">I want you by my side forever,stay mine forever because forever feels perfect with us🤗</p>
+                </div>
+
+                <div class="box6">
+                    <p class="big">Forever and always</p>
+                    <p class="mid">I promise to forever stay,to always care, to never leave, and  to always love you💕💍</p>
+                </div>
+               </div>
+
+
+              </div>
+              
+             
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
