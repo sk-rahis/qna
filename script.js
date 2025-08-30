@@ -48,7 +48,7 @@ moves.addEventListener('click',()=>{
         text.innerHTML='The button is scared now ! just say yes😣';
 
         text.style.fontWeight='bolder';
-        moves.innerHTML='pleasss?😭'
+        moves.innerHTML='pls i need you?😭'
     }
 
          else if(position===-170){
@@ -68,7 +68,7 @@ moves.addEventListener('click',()=>{
         text.innerHTML='The button is scared now ! just say yes😣';
 
         text.style.fontWeight='bolder';
-        moves.innerHTML='pleasss cutuu?😭'
+        moves.innerHTML='cutuu pls?😭'
     }
     else{
         position=0;
@@ -77,11 +77,12 @@ moves.addEventListener('click',()=>{
         text.innerHTML='The button is scared now ! just say yes😣';
 
         text.style.fontWeight='bolder';
-        moves.innerHTML='pleasss?😭'
+        moves.innerHTML='i will always love you plss?😭'
     }
   
   
 
 })
+
 
 
