@@ -50,6 +50,16 @@ moves.addEventListener('mouseover',()=>{
         text.style.fontWeight='bolder';
         moves.innerHTML='pleasss?😭'
     }
+
+         else if(position===40){
+        position+=170;
+        document.getElementsByClassName('no')[0].style.top= position +'px';
+        text.style.color='rgb(92, 9, 64)'
+        text.innerHTML='The button is scared now ! just say yes😣';
+
+        text.style.fontWeight='bolder';
+        moves.innerHTML='pleasss?😭'
+    }
     else{
         position=0;
         document.getElementsByClassName('no')[0].style.top= position +'px'
@@ -61,4 +71,5 @@ moves.addEventListener('mouseover',()=>{
     }
   
   
+
 })
