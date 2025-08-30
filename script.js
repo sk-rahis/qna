@@ -51,14 +51,24 @@ moves.addEventListener('click',()=>{
         moves.innerHTML='pleasss?😭'
     }
 
-         else if(position===40){
+         else if(position===-170){
         position+=170;
-        document.getElementsByClassName('no')[0].style.top= position +'px';
+        document.getElementsByClassName('no')[0].style.bottom= position +'px';
         text.style.color='rgb(92, 9, 64)'
         text.innerHTML='The button is scared now ! just say yes😣';
 
         text.style.fontWeight='bolder';
-        moves.innerHTML='pleasss?😭'
+        moves.innerHTML='pleasss cutuu?😭'
+    }
+
+                 else if(position===170){
+        position+=50;
+        document.getElementsByClassName('no')[0].style.right= position +'px';
+        text.style.color='rgb(92, 9, 64)'
+        text.innerHTML='The button is scared now ! just say yes😣';
+
+        text.style.fontWeight='bolder';
+        moves.innerHTML='pleasss cutuu?😭'
     }
     else{
         position=0;
@@ -73,4 +83,5 @@ moves.addEventListener('click',()=>{
   
 
 })
+
 
